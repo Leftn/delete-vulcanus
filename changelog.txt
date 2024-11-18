@@ -1,12 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.1
-Date: 15.11.2024
+Date: 19.11.2024
   Changes:
     - Initial release
----------------------------------------------------------------------------------------------------
-Version: 0.0.2
-Date: 18.11.2024
-  Bugfix:
-    - Fixed certain recipes using the deleted tungsten carbide item
-    - Moved speed module and quantum processor to the delete-vulcanus mod
 ---------------------------------------------------------------------------------------------------
