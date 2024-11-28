@@ -36,6 +36,15 @@ end
 -- End technology editing
 
 -- Start recipe editing
+if data.raw.recipe["artilery-shell"] then
+	data.raw.recipe["artilery-shell"].ingredients = {
+		{type = "item", name = "explosives", amount = 8},
+		{type = "item", name = "holmium-plate", amount = 1},
+		{type = "item", name = "tungsten-plate", amount = 4},
+		{type = "item", name = "radar", amount = 1},
+	}
+end
+
 if data.raw.recipe["molten-iron"] then
 	data.raw.recipe["molten-iron"].ingredients = {
 		{type = "item", name = "iron-ore", amount = 50},
