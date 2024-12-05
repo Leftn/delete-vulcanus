@@ -14,3 +14,8 @@ Date: 28.11.2024
   Bugfix:
     - Changed artillery shell requirement from calcite to holmium-plate
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 6.12.2024
+  Bugfix:
+    - Fixed using null instead of luas nil
+---------------------------------------------------------------------------------------------------

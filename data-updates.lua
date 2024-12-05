@@ -2,7 +2,7 @@
 -- Start technology editing
 if data.raw.technology["foundry"] then
     data.raw.technology["foundry"].prerequisites = {"electromagnetic-plant", "bioflux"}
-    data.raw.technology["foundry"].research_trigger = null
+    data.raw.technology["foundry"].research_trigger = nil
 	data.raw.technology["foundry"].unit = {
 		count = 500,
 		ingredients = {
@@ -19,7 +19,7 @@ end
 
 if data.raw.technology["tungsten-steel"] then
     data.raw.technology["tungsten-steel"].prerequisites = {"foundry"}
-    data.raw.technology["tungsten-steel"].research_trigger = null
+    data.raw.technology["tungsten-steel"].research_trigger = nil
 	data.raw.technology["tungsten-steel"].unit = {
 		count = 500,
 		ingredients = {
@@ -36,8 +36,8 @@ end
 -- End technology editing
 
 -- Start recipe editing
-if data.raw.recipe["artilery-shell"] then
-	data.raw.recipe["artilery-shell"].ingredients = {
+if data.raw.recipe["artillery-shell"] then
+	data.raw.recipe["artillery-shell"].ingredients = {
 		{type = "item", name = "explosives", amount = 8},
 		{type = "item", name = "holmium-plate", amount = 1},
 		{type = "item", name = "tungsten-plate", amount = 4},
@@ -211,7 +211,7 @@ if data.raw.item["tungsten-plate"] then
 end
 -- End item editing
 
-data.raw.planet["vulcanus"].map_gen_settings = null
+data.raw.planet["vulcanus"].map_gen_settings = nil
 if data.raw.planet["vulcanus"] then
 	data.raw.planet["vulcanus"].hidden = true
 end
