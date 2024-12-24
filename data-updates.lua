@@ -122,15 +122,6 @@ if data.raw.recipe["mech-armor"] then
 	}
 end
 
-if data.raw.recipe["advanced-metallic-asteroid-crushing"] then
-	data.raw.recipe["advanced-metallic-asteroid-crushing"].results = {
-      {type = "item", name = "iron-ore", amount = 10},
-      {type = "item", name = "stone", amount = 4},
-      {type = "item", name = "metallic-asteroid-chunk", amount = 1, probability = 0.05}
-    }
-	data.raw.recipe["advanced-metallic-asteroid-crushing"].icon = "__delete-vulcanus__/graphics/icons/advanced-metallic-asteroid-processing.png"
-end
-
 if data.raw.recipe["advanced-oxide-asteroid-crushing"] then
 	data.raw.recipe["advanced-oxide-asteroid-crushing"].results = {
 		{type = "item", name = "ice", amount = 5},
